@@ -1,0 +1,38 @@
+{
+  "name": "ai-key-map",
+  "version": "0.1.0",
+  "description": "Where do your OpenAI / Anthropic / OpenRouter / Gemini keys live on this machine? Read-only, offline map of every copy + a rotation checklist.",
+  "type": "module",
+  "bin": {
+    "ai-key-map": "bin/ai-key-map.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/scan.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "api-keys",
+    "secrets",
+    "key-rotation",
+    "openai",
+    "anthropic",
+    "openrouter",
+    "claude-code",
+    "codex",
+    "opencode",
+    "security"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinx-pro/ai-key-map.git"
+  }
+}
