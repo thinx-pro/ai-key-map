@@ -55,9 +55,3 @@ On a real development Mac (home directory plus one workspace tree, 78 candidate 
 ## License
 
 MIT
-
----
-
-### 中文简介
-
-**ai-key-map**：要换 AI Key，得先找到所有副本。它只读、离线地列出本机上 OpenAI / Anthropic / OpenRouter / Gemini / Groq / DeepSeek 等 Key 出现在哪里：shell 配置与**命令历史**、Claude Code / Codex / OpenCode / aider / Cursor / Gemini CLI / Claude Desktop MCP 配置、项目 `.env`、当前环境变量。同一个 Key 的多个副本按指纹归组，同时标出风险位置（历史记录、可读权限、git 工作区、云同步目录），并按 Key 生成轮换清单。从不打印完整 Key，不联网，零依赖：`npx github:thinx-pro/ai-key-map`。
