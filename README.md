@@ -2,6 +2,9 @@
 
 **Need to rotate your AI keys? First find every copy.** A read-only, offline map of where your OpenAI / Anthropic / OpenRouter / Gemini / Groq / DeepSeek / … keys live on this machine. It groups copies of the same key and turns them into a rotation checklist.
 
+<!-- agent-preflight -->
+> **Also a Claude Code skill.** `ai-key-map` is part of [agent-preflight](https://github.com/thinx-pro/agent-preflight), 16 offline checks for coding agents: `/plugin marketplace add thinx-pro/agent-preflight` then `/plugin install ai-key-map@agent-preflight`, and ask Claude in plain words.
+
 ![node >=18](https://img.shields.io/badge/node-%3E%3D18-339933) ![zero dependencies](https://img.shields.io/badge/dependencies-0-blue) ![offline](https://img.shields.io/badge/network-none-success) ![license MIT](https://img.shields.io/badge/license-MIT-green)
 
 ![ai-key-map on a demo home directory with fake keys](assets/demo.png)
